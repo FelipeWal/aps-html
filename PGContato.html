@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <a href="PGSobre.html">Sobre</a>
+            <a href="PGInicial.html">Página Inicial</a>
+            <button>Carrinho</button>
+        </nav>
+    </div>
+    <div>
+        <!--Aqui vou fazer a página do formulário de contato-->
+        <h1>Contato</h1>
+        <p>Estamos aqui para ajudá-lo! Se você tem dúvidas, sugestões ou precisa de mais informações sobre nossos
+            produtos e serviços, não hesite em entrar em contato conosco. Preencha o formulário abaixo para falar
+            diretamente com nossa equipe.</p>
+
+        <form action="" method="">
+            <fieldset>
+                <legend><b>Formulário de Contato</b></legend>
+                <label for="nome">Nome</label>
+                <input id="nome" name="nome" type="text" placeholder="Digite seu nome" required size="70">
+                <br>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="Digite seu email" required size="70">
+                <br>
+                <label for="senha">Senha</label>
+                <input id="senha" name="senha" type="password" placeholder="Digite sua senha" required size="40">
+                <br>
+                <label for="celular">Celular</label>
+                <input id="celular" name="celular" type="number" placeholder="Digite seu celular" required>
+                <br>
+                <label for="telefone">Telefone</label>
+                <input id="telefone" name="telefone" type="number" placeholder="Digite seu telefone" required>
+            </fieldset>
+            <fieldset>
+                <legend><b>Informações Adicionais</b></legend>
+                <label for="">Gênero</label>
+                <br>
+                <input type="radio" name="genero"> <label id="masculino" for="masculino">Masculino</label>
+
+                <input type="radio" name="genero"> <label id="femenino" for="femenino">Femenino</label>
+
+                <input type="radio" name="genero"> <label id="outro" for="outro">Outro</label>
+                <br>
+                <br>
+                <label for="endereco">Endereço</label>
+                <select name="endereco" id="endereco">
+                    <optgroup label="Sul">
+                        <option value="PR">Paraná</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                    </optgroup>
+                    <optgroup label="Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="ES">Espírito Santo</option>
+                    </optgroup>
+                </select>
+                <br>
+                <br>
+                <label for="preferencias"><b>Preferências:</b></label>
+                <br>
+                <label>Área de Interesse</label>
+                <br>
+                <input type="checkbox" name="tecnologia" id="tecnologia">
+                <label for="tecnologia">Tecnologia</label>
+                <br>
+                <input type="checkbox" name="esporte" id="esporte">
+                <label for="esporte">Esporte</label>
+                <br>
+                <input type="checkbox" name="arte" id="arte>
+                <label for=" arte">Arte</label>
+                <br>
+                <label for="comentario">Comentário</label>
+                <textarea name="comentario" id="comentario">Comentário</textarea>
+            </fieldset>
+            <input type="submit" value="Enviar Form">
+            <br>
+            <input type="reset" value="Limpar Form">
+        </form>
+    </div>
+
+    <body>
+
+</html>
